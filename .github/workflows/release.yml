@@ -120,8 +120,8 @@ jobs:
       # if: startsWith(github.ref, 'refs/tags/')
       with:
         files: |
-          openttd-server-*/*.zip
-          openttd-server-*/*.xz
+          openttd-*/*.zip
+          openttd-*/*.xz
 
 
   #upload-cdn:
